@@ -1,0 +1,48 @@
+{
+  "security": {
+    "auth": {
+      "selectedType": "oauth-personal"
+    }
+  },
+  "context": {
+    "fileName": [
+      ".gemini/AGENTS.md",
+      ".gemini/CONTEXT.md",
+      ".gemini/GEMINI.md"
+    ],
+    "discoveryMaxDirs": 100,
+    "includeDirectories": [
+      "challenges",
+      "tools"
+    ]
+  },
+  "mcpServers": {
+    "xxd": {
+      "command": "python",
+      "args": [
+        "tools/xxd_server.py"
+      ],
+      "description": "Hex dump and binary analysis tool"
+    }
+  },
+  "tools": {
+    "autoAccept": false,
+    "sandbox": "docker"
+  },
+  "general": {
+    "preferredEditor": "code",
+    "enablePromptCompletion": true
+  },
+  "ui": {
+    "theme": "Dracula",
+    "showMemoryUsage": true,
+    "showLineNumbers": true
+  },
+  "privacy": {
+    "usageStatisticsEnabled": false
+  },
+  "telemetry": {
+    "enabled": false,
+    "logPrompts": false
+  }
+}

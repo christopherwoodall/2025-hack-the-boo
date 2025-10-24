@@ -1,0 +1,27 @@
+# Challenges
+/challenges/
+!/challenges/.gitkeep
+
+# Git
+.git
+.gitignore
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv
+venv/
+
+# IDE files
+.idea/
+.vscode/
+
+# Secrets
+*.env
+secrets/

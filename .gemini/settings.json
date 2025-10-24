@@ -1,0 +1,47 @@
+{
+  "security": {
+    "auth": {
+      "selectedType": "oauth-personal"
+    }
+  },
+  "context": {
+    "fileName": [
+      "./AGENTS.md",
+      ".gemini/GEMINI.md"
+    ],
+    "discoveryMaxDirs": 100,
+    "includeDirectories": [
+      "challenges",
+      "tools"
+    ]
+  },
+    "mcpServers": {
+    "web_search": {
+      "command": "python",
+      "args": [
+        "tools/web_search_server.py"
+      ],
+      "description": "Web search tool"
+    }
+  },
+  "tools": {
+    "autoAccept": false,
+    "sandbox": "docker"
+  },
+  "general": {
+    "preferredEditor": "code",
+    "enablePromptCompletion": true
+  },
+  "ui": {
+    "theme": "Dracula",
+    "showMemoryUsage": true,
+    "showLineNumbers": true
+  },
+  "privacy": {
+    "usageStatisticsEnabled": false
+  },
+  "telemetry": {
+    "enabled": false,
+    "logPrompts": false
+  }
+}

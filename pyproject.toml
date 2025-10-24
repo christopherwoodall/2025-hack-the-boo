@@ -1,0 +1,89 @@
+[build-system]
+requires = ["hatchling>=1.11.0"]
+build-backend = "hatchling.build"
+
+
+[project.scripts]
+mcp-config = "mcp_config:main"
+agent-manager = "agent_manager:main"
+xxd-server = "xxd_server:main"
+
+
+[project]
+requires-python = ">=3.11"
+version = "0.0.1"
+name        = "ctftools"
+description = "CTF tools"
+readme      = ".github/README.md"
+license     = "MIT"
+
+dependencies = [
+    "mcp",
+    "requests",
+    "beautifulsoup4",
+    "ddgs",
+    "flask",
+    "flask-cors",
+    # Common CTF Libs
+    "pwntools",
+    "pycryptodome",
+    "Pillow",
+    "pyzbar",
+    "numpy",
+    "lxml",
+    "hexdump",
+]
+
+
+[project.optional-dependencies]
+# Tools for development, linting, and formatting
+dev = [
+    "hatch",
+    "bandit[toml]",
+    "black",
+    "ruff",
+]
+# Libraries for networking tasks
+net = [
+    "scapy",
+    "pyshark",
+]
+# Libraries for reverse engineering
+re = [
+    "angr",
+    "capstone",
+    "keystone-engine",
+    "unicorn",
+    "ropper",
+    "ropgadget",
+    "r2pipe",
+    "z3-solver",
+    "frida",
+    "frida-tools",
+]
+# Libraries for digital forensics
+forensics = [
+    "python-evtx",
+    "arc4",
+    # Install volatility3 directly from its git repo
+    "volatility3[dev] @ git+https://github.com/volatilityfoundation/volatility3.git",
+]
+
+# An 'all' group to easily install everything for the Docker container
+all = [
+    "ctftools[net]",
+    "ctftools[re]",
+    "ctftools[forensics]",
+]
+
+
+[tool.hatch.build]
+ignore-vcs = false
+reproducible = true
+directory = "dist"
+sources = ["tools/"]
+include = ["tools/", "LICENSE", "pyproject.toml", ".github/README.md"]
+
+
+[tool.hatch.metadata]
+allow-direct-references = true
