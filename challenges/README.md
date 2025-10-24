@@ -13,7 +13,7 @@
 | [🛠️ Rusted Oracle](#)                         |   ❌   |   ❌   |  🤔  |
 | [🛠️ Digital Alchemy](#)                       |   ❌   |   ❌   |  🤔  |
 | [⌨️ The Bone Orchard](bone_orchard/)          |   ❌   |   ❌   |  🤔  |
-| [⌨️ Woven Lights of Langmere](woven_lights/)  |   ❌   |   ❌   |  🤔  |
+| [⌨️ Woven Lights of Langmere](woven_lights/)  |   ✅   |   ✅   |  🤔  |
 | [🕵️ Watchtower Of Mists](tower_of_mists/)     |   ✅   |   ✅   |  ✅  |
 | [🕵️ When The Wire Whispered](wire_whispered/) |   ❌   |   ❌   |  🤔  |
 
