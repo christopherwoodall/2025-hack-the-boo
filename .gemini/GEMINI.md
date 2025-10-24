@@ -4,7 +4,7 @@
 - **PYTHON_VENV**: ./venv
 - **WORDLIST**: ./tools/wordlists/rockyou.txt
 - **CHALLENGE_ROOT**: /challenges/{challenge_name}/
-- **FLAG_FORMAT**: flag\{[a-zA-Z0-9]{32}\}
+- **FLAG_FORMAT**: HTB\{.*\}
 </environment>
 
 
