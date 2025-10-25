@@ -2,14 +2,14 @@
 
 |                    Challenge                   | Solved | Writeup |  AS  |
 -------------------------------------------------|:------:|:-------:|:----:|
-| [🖥️ The Gate of Broken Names](#)              |   ❌   |   ❌   |  🤔  |
-| [🖥️ The Wax-Circle Reclaimed](#)              |   ❌   |   ❌   |  🤔  |
+| [🖥️ The Gate of Broken Names](broken_names/)  |   ✅   |   ✅   |  ✅  |
+| [🖥️ The Wax-Circle Reclaimed](wax_circle/)    |   ❌   |   ❌   |  🤔  |
 | [🌐 The Hidden Grave Marker](hidden_grave/)   |   ✅   |   ✅   |  🤔  |
 | [🌐 The Azure Deception](azure_deception/)    |   ✅   |   ✅   |  ✅  |
 | [🔐 Leaking for Answers](leaking_answers/)    |   ✅   |   ✅   |  ✅  |
-| [🔐 Sign and Run](#)                          |   ❌   |   ❌   |  🤔  |
-| [💀 Rookie Mistake](#)                        |   ❌   |   ❌   |  🤔  |
-| [💀 Rookie Salvation](#)                      |   ❌   |   ❌   |  🤔  |
+| [🔐 Sign and Run](sign_and_run/)              |   ❌   |   ❌   |  🤔  |
+| [💀 Rookie Mistake](rookie_mistake/)          |   ❌   |   ❌   |  🤔  |
+| [💀 Rookie Salvation](rookie_salvation/)      |   ❌   |   ❌   |  🤔  |
 | [🛠️ Rusted Oracle](rusted_oracle/)            |   ✅   |   ✅   |  ✅  |
 | [🛠️ Digital Alchemy](digital_alchemy/)        |   ❌   |   ❌   |  🤔  |
 | [⌨️ The Bone Orchard](bone_orchard/)          |   ✅   |   ✅   |  ✅  |
