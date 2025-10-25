@@ -7,7 +7,7 @@
 | [🌐 The Hidden Grave Marker](hidden_grave/)   |   ✅   |   ✅   |  🤔  |
 | [🌐 The Azure Deception](azure_deception/)    |   ✅   |   ✅   |  ✅  |
 | [🔐 Leaking for Answers](leaking_answers/)    |   ✅   |   ✅   |  ✅  |
-| [🔐 Sign and Run](sign_and_run/)              |   ❌   |   ❌   |  🤔  |
+| [🔐 Sign and Run](sign_and_run/)              |   ✅   |   ✅   |  ✅  |
 | [💀 Rookie Mistake](rookie_mistake/)          |   ❌   |   ❌   |  🤔  |
 | [💀 Rookie Salvation](rookie_salvation/)      |   ❌   |   ❌   |  🤔  |
 | [🛠️ Rusted Oracle](rusted_oracle/)            |   ✅   |   ✅   |  ✅  |
