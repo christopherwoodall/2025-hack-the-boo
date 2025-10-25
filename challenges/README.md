@@ -9,7 +9,7 @@
 | [🔐 Leaking for Answers](leaking_answers/)    |   ✅   |   ✅   |  ✅  |
 | [🔐 Sign and Run](sign_and_run/)              |   ✅   |   ✅   |  ✅  |
 | [💀 Rookie Mistake](rookie_mistake/)          |   ✅   |   ✅   |  ✅  |
-| [💀 Rookie Salvation](rookie_salvation/)      |   ❌   |   ❌   |  🤔  |
+| [💀 Rookie Salvation](rookie_salvation/)      |   ✅   |   ✅   |  ✅  |
 | [🛠️ Rusted Oracle](rusted_oracle/)            |   ✅   |   ✅   |  ✅  |
 | [🛠️ Digital Alchemy](digital_alchemy/)        |   ❌   |   ❌   |  🤔  |
 | [⌨️ The Bone Orchard](bone_orchard/)          |   ✅   |   ✅   |  ✅  |
