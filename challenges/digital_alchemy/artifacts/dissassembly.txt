@@ -1,0 +1,411 @@
+#include "out.h"
+
+
+
+void _DT_INIT(void)
+
+{
+  __gmon_start__();
+  return;
+}
+
+
+
+void FUN_00101020(void)
+
+{
+  (*(code *)(undefined *)0x0)();
+  return;
+}
+
+
+
+// WARNING: Unknown calling convention -- yet parameter storage is locked
+
+void free(void *__ptr)
+
+{
+  free(__ptr);
+  return;
+}
+
+
+
+// WARNING: Unknown calling convention -- yet parameter storage is locked
+
+int strncmp(char *__s1,char *__s2,size_t __n)
+
+{
+  int iVar1;
+  
+  iVar1 = strncmp(__s1,__s2,__n);
+  return iVar1;
+}
+
+
+
+// WARNING: Unknown calling convention -- yet parameter storage is locked
+
+int puts(char *__s)
+
+{
+  int iVar1;
+  
+  iVar1 = puts(__s);
+  return iVar1;
+}
+
+
+
+// WARNING: Unknown calling convention -- yet parameter storage is locked
+
+size_t fread(void *__ptr,size_t __size,size_t __n,FILE *__stream)
+
+{
+  size_t sVar1;
+  
+  sVar1 = fread(__ptr,__size,__n,__stream);
+  return sVar1;
+}
+
+
+
+// WARNING: Unknown calling convention -- yet parameter storage is locked
+
+int fclose(FILE *__stream)
+
+{
+  int iVar1;
+  
+  iVar1 = fclose(__stream);
+  return iVar1;
+}
+
+
+
+// WARNING: Unknown calling convention -- yet parameter storage is locked
+
+size_t strlen(char *__s)
+
+{
+  size_t sVar1;
+  
+  sVar1 = strlen(__s);
+  return sVar1;
+}
+
+
+
+// WARNING: Unknown calling convention -- yet parameter storage is locked
+
+int printf(char *__format,...)
+
+{
+  int iVar1;
+  
+  iVar1 = printf(__format);
+  return iVar1;
+}
+
+
+
+// WARNING: Unknown calling convention -- yet parameter storage is locked
+
+void * memset(void *__s,int __c,size_t __n)
+
+{
+  void *pvVar1;
+  
+  pvVar1 = memset(__s,__c,__n);
+  return pvVar1;
+}
+
+
+
+// WARNING: Unknown calling convention -- yet parameter storage is locked
+
+int strcmp(char *__s1,char *__s2)
+
+{
+  int iVar1;
+  
+  iVar1 = strcmp(__s1,__s2);
+  return iVar1;
+}
+
+
+
+// WARNING: Unknown calling convention -- yet parameter storage is locked
+
+long ftell(FILE *__stream)
+
+{
+  long lVar1;
+  
+  lVar1 = ftell(__stream);
+  return lVar1;
+}
+
+
+
+// WARNING: Unknown calling convention -- yet parameter storage is locked
+
+void * memcpy(void *__dest,void *__src,size_t __n)
+
+{
+  void *pvVar1;
+  
+  pvVar1 = memcpy(__dest,__src,__n);
+  return pvVar1;
+}
+
+
+
+// WARNING: Unknown calling convention -- yet parameter storage is locked
+
+time_t time(time_t *__timer)
+
+{
+  time_t tVar1;
+  
+  tVar1 = time(__timer);
+  return tVar1;
+}
+
+
+
+// WARNING: Unknown calling convention -- yet parameter storage is locked
+
+void * malloc(size_t __size)
+
+{
+  void *pvVar1;
+  
+  pvVar1 = malloc(__size);
+  return pvVar1;
+}
+
+
+
+// WARNING: Unknown calling convention -- yet parameter storage is locked
+
+int fseek(FILE *__stream,long __off,int __whence)
+
+{
+  int iVar1;
+  
+  iVar1 = fseek(__stream,__off,__whence);
+  return iVar1;
+}
+
+
+
+// WARNING: Unknown calling convention -- yet parameter storage is locked
+
+FILE * fopen(char *__filename,char *__modes)
+
+{
+  FILE *pFVar1;
+  
+  pFVar1 = fopen(__filename,__modes);
+  return pFVar1;
+}
+
+
+
+// WARNING: Unknown calling convention -- yet parameter storage is locked
+
+void exit(int __status)
+
+{
+                    // WARNING: Subroutine does not return
+  exit(__status);
+}
+
+
+
+// WARNING: Unknown calling convention -- yet parameter storage is locked
+
+size_t fwrite(void *__ptr,size_t __size,size_t __n,FILE *__s)
+
+{
+  size_t sVar1;
+  
+  sVar1 = fwrite(__ptr,__size,__n,__s);
+  return sVar1;
+}
+
+
+
+void __cxa_finalize(void)
+
+{
+  __cxa_finalize();
+  return;
+}
+
+
+
+void processEntry entry(undefined8 param_1,undefined8 param_2)
+
+{
+  undefined1 auStack_8 [8];
+  
+  __libc_start_main(FUN_00101239,param_2,&stack0x00000008,0,0,param_1,auStack_8);
+  do {
+                    // WARNING: Do nothing block with infinite loop
+  } while( true );
+}
+
+
+
+// WARNING: Removing unreachable block (ram,0x00101193)
+// WARNING: Removing unreachable block (ram,0x0010119f)
+
+void FUN_00101180(void)
+
+{
+  return;
+}
+
+
+
+// WARNING: Removing unreachable block (ram,0x001011d4)
+// WARNING: Removing unreachable block (ram,0x001011e0)
+
+void FUN_001011b0(void)
+
+{
+  return;
+}
+
+
+
+void _FINI_0(void)
+
+{
+  if (DAT_00104098 != '\0') {
+    return;
+  }
+  __cxa_finalize(PTR_LOOP_00104090);
+  FUN_00101180();
+  DAT_00104098 = 1;
+  return;
+}
+
+
+
+void _INIT_0(void)
+
+{
+  FUN_001011b0();
+  return;
+}
+
+
+
+undefined8 FUN_00101239(void)
+
+{
+  char cVar1;
+  int iVar2;
+  long lVar3;
+  size_t sVar4;
+  char local_98 [30];
+  byte local_7a;
+  char local_79;
+  FILE *local_78;
+  int local_70;
+  int local_6c;
+  char *local_68;
+  int local_60;
+  byte local_59;
+  time_t local_58;
+  uint local_4c;
+  char *local_48;
+  int local_3c;
+  FILE *local_38;
+  char *local_30;
+  time_t local_28;
+  uint local_20;
+  int local_1c;
+  int local_18;
+  int local_14;
+  char *local_10;
+  
+  puts("Initializing the Athanor...");
+  local_28 = time((time_t *)0x0);
+  local_30 = "USMWO[]\\iN[QWRYdqXle[i_bm^aoc";
+  local_38 = fopen("lead.txt","rb");
+  fseek(local_38,0,2);
+  lVar3 = ftell(local_38);
+  local_3c = (int)lVar3;
+  fseek(local_38,0,0);
+  local_48 = (char *)malloc((long)local_3c);
+  local_10 = local_48;
+  fread(local_48,1,(long)local_3c,local_38);
+  fclose(local_38);
+  iVar2 = strncmp(local_10,"MTRLLEAD",8);
+  if (iVar2 == 0) {
+    local_4c = 0x26688d;
+    local_14 = 0x214f;
+    local_20 = (int)local_10[0xb] |
+               (int)local_10[8] << 0x18 | (int)local_10[9] << 0x10 | (int)local_10[10] << 8;
+    local_10 = local_10 + 8;
+    local_58 = time((time_t *)0x0);
+    if (2 < local_58 - local_28) {
+      local_14 = 0xdead;
+    }
+    local_10 = local_10 + 4;
+    local_59 = 0x40;
+    local_18 = 0;
+    sVar4 = strlen(local_30);
+    local_60 = (int)sVar4;
+    for (local_1c = 0; local_1c < local_60; local_1c = local_1c + 1) {
+      local_79 = local_59 + (char)local_1c;
+      local_7a = local_59 ^ local_79 + *local_10;
+      cVar1 = (char)((uint)local_7a * 3 >> 8);
+      local_98[local_1c] =
+           local_7a + ((byte)(((byte)(local_7a - cVar1) >> 1) + cVar1) >> 6) * -0x7f + '\x01';
+      local_18 = local_18 + *local_10;
+      local_10 = local_10 + 1;
+    }
+    local_58 = time((time_t *)0x0);
+    if (2 < local_58 - local_28) {
+      local_18 = 0xdead;
+    }
+    local_98[local_1c] = '\0';
+    iVar2 = strcmp(local_98,local_30);
+    if (iVar2 != 0) {
+      printf("Incantation mismatch. The words fade into silence...");
+      free(local_48);
+                    // WARNING: Subroutine does not return
+      exit(1);
+    }
+    local_68 = (char *)malloc(0x28);
+    local_6c = 8;
+    memset(local_68,0,8);
+    memcpy(local_68,local_10,(long)(local_6c + -1));
+    sVar4 = strlen(local_68);
+    local_70 = (int)sVar4;
+    for (local_1c = 0; local_1c < local_70; local_1c = local_1c + 1) {
+      local_20 = (local_18 + local_14 * local_20) % local_4c;
+      local_68[local_1c] = local_68[local_1c] ^ (byte)local_20 & 0xf;
+    }
+    local_78 = fopen("gold.txt","wb");
+    fwrite(local_68,1,(long)local_70,local_78);
+    fclose(local_78);
+    puts("The Athanor glows brightly, revealing a secret...");
+    free(local_48);
+    free(local_68);
+  }
+  return 0;
+}
+
+
+
+void _DT_FINI(void)
+
+{
+  return;
+}
