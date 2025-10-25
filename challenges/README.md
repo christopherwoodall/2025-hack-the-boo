@@ -10,8 +10,8 @@
 | [🔐 Sign and Run](#)                          |   ❌   |   ❌   |  🤔  |
 | [💀 Rookie Mistake](#)                        |   ❌   |   ❌   |  🤔  |
 | [💀 Rookie Salvation](#)                      |   ❌   |   ❌   |  🤔  |
-| [🛠️ Rusted Oracle](#)                         |   ❌   |   ❌   |  🤔  |
-| [🛠️ Digital Alchemy](#)                       |   ❌   |   ❌   |  🤔  |
+| [🛠️ Rusted Oracle](rusted_oracle/)            |   ✅   |   ✅   |  ✅  |
+| [🛠️ Digital Alchemy](digital_alchemy/)        |   ❌   |   ❌   |  🤔  |
 | [⌨️ The Bone Orchard](bone_orchard/)          |   ✅   |   ✅   |  ✅  |
 | [⌨️ Woven Lights of Langmere](woven_lights/)  |   ✅   |   ✅   |  ✅  |
 | [🕵️ Watchtower Of Mists](tower_of_mists/)     |   ✅   |   ✅   |  ✅  |

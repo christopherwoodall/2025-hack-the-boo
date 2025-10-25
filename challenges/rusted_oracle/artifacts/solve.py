@@ -1,0 +1,30 @@
+
+enc = [
+  0xfffe, 0xff8e, 0xffd6, 0xff32, 0xff12, 0xff72,
+  0xfe1a, 0xff1e, 0xff9e, 0xfe1a, 0xff66, 0xffc2,
+  0xfe6a, 0xffd2, 0xfe0e, 0xff6e, 0xff6e, 0xfe4e,
+  0xfe5a, 0xfe5a, 0xfe1a, 0xfe5a, 0xff2a
+]
+
+flag = ''
+for i in range(len(enc)):
+    val = enc[i]
+    
+    # XOR by 0x524e
+    val ^= 0x524e
+    
+    # ROR by 1
+    val = (val >> 1) | ((val & 1) << 15)
+
+    # XOR by 0x5648
+    val ^= 0x5648
+
+    # ROL by 7
+    val = ((val << 7) | (val >> (16 - 7))) & 0xFFFF
+
+    # SHR by 8
+    val >>= 8
+    
+    flag += chr(val & 0xff)
+
+print(flag)
