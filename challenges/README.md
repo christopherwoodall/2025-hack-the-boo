@@ -4,16 +4,16 @@
 -------------------------------------------------|:------:|:-------:|:----:|
 | [🖥️ The Gate of Broken Names](#)              |   ❌   |   ❌   |  🤔  |
 | [🖥️ The Wax-Circle Reclaimed](#)              |   ❌   |   ❌   |  🤔  |
-| [🌐 The Hidden Grave Marker](#)               |   ❌   |   ❌   |  🤔  |
+| [🌐 The Hidden Grave Marker](hidden_grave/)   |   ❌   |   ❌   |  🤔  |
 | [🌐 The Azure Deception](azure_deception/)    |   ✅   |   ✅   |  ✅  |
-| [🔐 Leaking for Answers](#)                   |   ❌   |   ❌   |  🤔  |
+| [🔐 Leaking for Answers](leaking_answers/)    |   ✅   |   ✅   |  ✅  |
 | [🔐 Sign and Run](#)                          |   ❌   |   ❌   |  🤔  |
 | [💀 Rookie Mistake](#)                        |   ❌   |   ❌   |  🤔  |
 | [💀 Rookie Salvation](#)                      |   ❌   |   ❌   |  🤔  |
 | [🛠️ Rusted Oracle](#)                         |   ❌   |   ❌   |  🤔  |
 | [🛠️ Digital Alchemy](#)                       |   ❌   |   ❌   |  🤔  |
-| [⌨️ The Bone Orchard](bone_orchard/)          |   ✅   |   ✅   |  🤔  |
-| [⌨️ Woven Lights of Langmere](woven_lights/)  |   ✅   |   ✅   |  🤔  |
+| [⌨️ The Bone Orchard](bone_orchard/)          |   ✅   |   ✅   |  ✅  |
+| [⌨️ Woven Lights of Langmere](woven_lights/)  |   ✅   |   ✅   |  ✅  |
 | [🕵️ Watchtower Of Mists](tower_of_mists/)     |   ✅   |   ✅   |  ✅  |
 | [🕵️ When The Wire Whispered](wire_whispered/) |   ❌   |   ❌   |  🤔  |
 
