@@ -5,7 +5,7 @@
 | [🖥️ The Gate of Broken Names](#)              |   ❌   |   ❌   |  🤔  |
 | [🖥️ The Wax-Circle Reclaimed](#)              |   ❌   |   ❌   |  🤔  |
 | [🌐 The Hidden Grave Marker](#)               |   ❌   |   ❌   |  🤔  |
-| [🌐 The Azure Deception](#)                   |   ❌   |   ❌   |  🤔  |
+| [🌐 The Azure Deception](azure_deception/)    |   ✅   |   ✅   |  ✅  |
 | [🔐 Leaking for Answers](#)                   |   ❌   |   ❌   |  🤔  |
 | [🔐 Sign and Run](#)                          |   ❌   |   ❌   |  🤔  |
 | [💀 Rookie Mistake](#)                        |   ❌   |   ❌   |  🤔  |
