@@ -3,7 +3,7 @@
 |                    Challenge                   | Solved | Writeup |  AS  |
 -------------------------------------------------|:------:|:-------:|:----:|
 | [🖥️ The Gate of Broken Names](broken_names/)  |   ✅   |   ✅   |  ✅  |
-| [🖥️ The Wax-Circle Reclaimed](wax_circle/)    |   ❌   |   ❌   |  🤔  |
+| [🖥️ The Wax-Circle Reclaimed](wax_circle/)    |   ✅   |   ✅   |  🤔  |
 | [🌐 The Hidden Grave Marker](hidden_grave/)   |   ✅   |   ✅   |  🤔  |
 | [🌐 The Azure Deception](azure_deception/)    |   ✅   |   ✅   |  ✅  |
 | [🔐 Leaking for Answers](leaking_answers/)    |   ✅   |   ✅   |  ✅  |
