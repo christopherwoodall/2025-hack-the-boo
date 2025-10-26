@@ -32,7 +32,7 @@ pip install -e .
 
 ## ⚠️ Disclaimer
 
-These [writeups](https://github.com/hackthebox/hacktheboo-2024) are published after the CTF has concluded. Please respect the competition rules and don't share solutions during active contests.
+These [writeups](https://github.com/hackthebox/hacktheboo-2025) are published after the CTF has concluded. Please respect the competition rules and don't share solutions during active contests.
 
 ---
 
