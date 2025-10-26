@@ -121,10 +121,10 @@ RUN apt-get install -y --no-install-recommends \
 RUN git clone https://github.com/radareorg/radare2 && \
     radare2/sys/install.sh
 
-# Install pyRDP
-RUN pip install pipx \
-    && pipx ensurepath \
-    && pipx install pyrdp-mitm[full]
+# # Install pyRDP
+# RUN pip install pipx \
+#     && pipx ensurepath \
+#     && pipx install pyrdp-mitm[full]
 
 # Clean up apt cache to reduce image size
 RUN apt-get clean && \
