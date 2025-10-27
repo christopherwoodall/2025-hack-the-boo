@@ -8,6 +8,12 @@ Update Wireshark to version v4.6.0+ or higher. Open the pcap and go to `Edit` ->
 ### Step 2
 Export the RDP stream by going to `File` -> `Export PDUs to file` -> select `OSI Layer 7` -> `Ok`. Then save the new stream as pdu.pcap.
 
+Or in BASH:
+
+```bash
+tshark -r capture.pcap -o "tls.keylog_file:$(pwd)/tls-lsa.log" -U "OSI layer 7" -w pdu.pcap 2>&1
+```
+
 ### Step 3
 Install PyRDP from the git repository:
 
