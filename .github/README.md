@@ -2,7 +2,7 @@
 <img src="/.github/assets/ctf-logo-small.png"/>
 </p>
 
-# Team `NotCanadaGeese` [2025 Hack the Boo](https://ctf.hackthebox.com/event/details/hack-the-boo-2025-competition-2842) Writeups
+# [2025 Hack the Boo](https://ctf.hackthebox.com/event/details/hack-the-boo-2025-competition-2842) Writeups
 
 ## 🔗 Links
 - [📋 Challenge Writeups](/challenges/README.md)
