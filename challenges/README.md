@@ -15,7 +15,7 @@
 | [⌨️ The Bone Orchard](bone_orchard/)          |   ✅   |   ✅   |  ✅  |
 | [⌨️ Woven Lights of Langmere](woven_lights/)  |   ✅   |   ✅   |  ✅  |
 | [🕵️ Watchtower Of Mists](tower_of_mists/)     |   ✅   |   ✅   |  ✅  |
-| [🕵️ When The Wire Whispered](wire_whispered/) |   ❌   |   ❌   |  🤔  |
+| [🕵️ When The Wire Whispered](wire_whispered/) |   ✅   |   ✅   |  🤔  |
 
 
 ✅ **Completed**  ❌ **Not Completed**  🤔 **Unknown**  ⏳ **Upcoming**
