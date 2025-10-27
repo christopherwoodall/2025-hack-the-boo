@@ -126,6 +126,9 @@ RUN git clone https://github.com/radareorg/radare2 && \
 #     && pipx ensurepath \
 #     && pipx install pyrdp-mitm[full]
 
+# # Install GEF
+# bash -c "$(curl -fsSL https://gef.blah.cat/sh)"
+
 # Clean up apt cache to reduce image size
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/*
